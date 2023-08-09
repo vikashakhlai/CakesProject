@@ -1,0 +1,21 @@
+.reviewItem {
+	width: 75%;
+
+	border: 2px solid #ccc;
+	background-color: #fed84c;
+
+	border-radius: 5px; /* скругление углов блока */
+	padding: 16px; /* внутренние поля */
+	margin: 16px auto; /* внешние отступы */
+	text-align: center;
+
+	img {
+		margin: auto;
+		float: none;
+		display: block;
+	}
+}
+
+.reviewDescription {
+	text-align: center;
+}

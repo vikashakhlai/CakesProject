@@ -1,0 +1,27 @@
+.galleryContainer {
+	padding-top: 20px;
+	background-color: #fff;
+	text-align: center;
+
+	@media (max-width: 768px) {
+		h2 {
+			font-size: 20px;
+		}
+	}
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 1em;
+	padding-bottom: 20px;
+
+	@media (max-width: 768px) {
+		display: block;
+	}
+
+	img {
+		width: 100%; /* need to overwrite inline dimensions */
+		height: auto;
+	}
+}
