@@ -1,11 +1,11 @@
 import NotFound from '../components/screens/not-found/NotFound.jsx';
 import { routes } from './routes.data.js';
 import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const Router = () => {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Routes>
 				{routes.map(route => {
 					return (
@@ -18,7 +18,7 @@ const Router = () => {
 				})}
 				<Route path='*' element={<NotFound />} />
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	);
 };
 
