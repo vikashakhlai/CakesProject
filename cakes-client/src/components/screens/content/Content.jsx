@@ -4,7 +4,7 @@ import styles from './Content.module.scss';
 const Content = () => {
 	return (
 		<section className={styles.content}>
-			<img src='../../../../public/phone 1.png' alt='' />
+			<img src='/assets/phone.png' alt='' />
 			<div className={styles.textContent}>
 				{window.innerWidth >= 768 ? (
 					<Button

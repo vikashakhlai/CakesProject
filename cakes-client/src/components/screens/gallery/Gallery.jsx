@@ -7,31 +7,31 @@ const Gallery = () => {
 			<p>See photos of real orders from our instagram</p>
 			<div className={styles.gallery}>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 				<figure className={styles.imageContainer}>
-					<img src='../../../../dist/gallery/cake1.png' />
+					<img src='/assets/cake1.png' />
 				</figure>
 			</div>
 		</section>
